@@ -1,0 +1,30 @@
+li {
+  list-style-type: none;
+  border: 1px solid black;
+}
+
+.channelBox p {
+  font-family: "IBM Plex Mono", monospace;
+}
+img {
+  display: inline-block;
+  position: relative;
+  top: 0px;
+  border: 1px solid black;
+}
+
+.channelName {
+  display: inline-block;
+  margin-left: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  color: inherit;
+  position: relative;
+  top: -10px;
+}
+.channelGame,
+.channelViewers {
+  margin-left: 10px;
+  position: relative;
+  top: -12px;
+}
